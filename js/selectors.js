@@ -24,6 +24,6 @@ function divSelector(){
 
 function firstListItem(){
   
-  //descendent selector + first child selector (see read.me)
+  //descendent selector + first child selector (see lesson for code)
   return $('ul li:first-child');
 }

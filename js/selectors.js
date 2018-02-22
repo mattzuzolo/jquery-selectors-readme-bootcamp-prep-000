@@ -7,6 +7,8 @@ function paragraphSelector () {
 
 function lastImageSelector() {
   
+  //just "img.last" — dont need any . or #. Because it's searching through ALL images for the first. No need to reduce scope.
+  
   return $('img:last');
 }
 
@@ -24,6 +26,6 @@ function divSelector(){
 
 function firstListItem(){
   
-  //descendent selector + first child selector (see lesson for code)
+  //descendent selector + first child selector (see lesson for)
   return $('ul li:first-child');
 }

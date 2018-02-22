@@ -12,14 +12,17 @@ function lastImageSelector() {
 
 function ninjaBabySelector() {
 
+  //# before baby-ninja because it works the same was asa a class selector
   return $('#baby-ninja')  
 }
 
 function divSelector(){
   
-  return $('pics')
+  //period before pics because it'll return entire class
+  return $('.pics')
 }
 
 function firstListItem(){
   
+  return $(' ')
 }

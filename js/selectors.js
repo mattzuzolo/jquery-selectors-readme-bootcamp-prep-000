@@ -24,5 +24,5 @@ function divSelector(){
 
 function firstListItem(){
   
-  return $('ul pli:first-child');
+  return $('ul li:first-child');
 }

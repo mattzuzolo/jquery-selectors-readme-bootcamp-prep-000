@@ -2,16 +2,17 @@
 
 function paragraphSelector () {
   
- return $('p');
+  return $('p');
 }
 
 function lastImageSelector() {
   
-
+  return $('p:last');
 }
 
 function ninjaBabySelector() {
-  
+
+  return $('')  
 }
 
 function divSelector(){
